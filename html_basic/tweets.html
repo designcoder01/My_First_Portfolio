@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise: Basic HTML Page</title>
+    <title>Tweets Page</title>
 </head>
 <body>
-    <h1>This is the exercise</h1>
-    <p>Here's some content for the exercise page.</p>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+            <!-- Add more links to other pages as needed -->
+        </ul>
+    </header>
+
+    <main>
+        <article>
+            <h1>Embedded Tweet</h1>
+            <!-- Replace with actual embedded tweet code -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Embedded Tweet</p>&mdash; Tweet Author (@tweet_author) <a href="https://twitter.com/tweet_author/status/YOUR_TWEET_ID_HERE">January 1, 2024</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Your Name - <a href="https://example.com" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
-<!-- Replace 'YOUR_TWEET_URL_HERE' with the URL of the tweet you want to embed -->
-<blockquote class="twitter-tweet">
-  <p lang="en" dir="ltr">Embedded Tweet</p>&mdash; Tweet Author (@tweet_author) <a href="https://twitter.com/tweet_author/status/YOUR_TWEET_ID_HERE">January 1, 2024</a>
-</blockquote>
-<a href="index.html">Back to Homepage</a>
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
